@@ -9,7 +9,7 @@ class CreateUser extends UseCaseWithParams<void, CreateUserParams> {
   const CreateUser(this._repository);
 
   @override
-  ResultFuture call(CreateUserParams params) async => _repository.createUser(
+  ResultVoid call(CreateUserParams params) async => _repository.createUser(
         createdAt: params.createdAt,
         name: params.name,
         avatar: params.avatar,
