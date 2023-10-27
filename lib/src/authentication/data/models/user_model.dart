@@ -26,8 +26,8 @@ class UserModel extends User {
       : this(
           id: '1',
           createdAt: '_empty.createdAt',
-          name: '_empty.createdAt',
-          avatar: '_empty.createdAt',
+          name: '_empty.name',
+          avatar: '_empty.avatar',
         );
 
   UserModel copyWith({

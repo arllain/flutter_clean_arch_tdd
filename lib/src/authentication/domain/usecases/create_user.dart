@@ -34,5 +34,6 @@ class CreateUserParams extends Equatable {
           avatar: '_empty.createdAt',
         );
 
+  @override
   List<Object?> get props => [createdAt, name, avatar];
 }
